@@ -1,37 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
 
-    <title>Project tracking intro component</title>
+  <title>Project tracking intro component</title>
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
-  </head>
-  <body>
-    Product Features Pricing Login New Monograph Dashboard Powerful insights
-    into your team Project planning and time tracking for agile teams Schedule a
-    demo to see a live preview
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 
-    <footer>
-      <p class="attribution">Coded by <a href="#">Your Name Here</a>.</p>
-    </footer>
-  </body>
+</head>
+
+<body>
+ 
+  <div class="dropdown">
+
+    <img class="logoImg" src="images/logo.svg" alt="">
+    <input type="checkbox" id="checkbox_toggle">
+    <label for="checkbox_toggle" class="toggle"><img id="img1" src="./images/icon-hamburger.svg" alt="burger"></label>
+    <label for="checkbox_toggle" class="toggle2"><img id="img2" src="./images/icon-close.svg" alt="burger"></label>
+    <ul class="back">
+        <li><a href="#">Product</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li class="line"><div></div></li>
+        <li><a href="#" class="login">Login</a></li>
+    </ul>
+</div>
+<section class="container">
+    <div class="container-part2">
+        <img alt="img" src="images/illustration-devices.svg" class="image">
+    </div>
+    <div class="container-part1">
+        <p class="para1">
+            <span class="btnnew">New</span> <span class="title-grey">MONOGRAPH DASHBOARD</span>
+        </p> 
+        <h1>POWERFUL INSIGHTS <br> INTO YOUR TEAM</h1>
+
+        <p class="para2">Project planning and time tracking <br> for agile teams</p>
+        <div class="bottom">
+            <button class="btnschedule ">SCHEDULTE A DEMO</button>
+            <p class="title-grey2">TO SEE A PREVIEW </p>
+        </div>
+    </div>
+
+</section>
+
+
+
+
+
+</body>
+
 </html>
