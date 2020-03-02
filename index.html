@@ -15,39 +15,44 @@
 </head>
 
 <body>
- 
+
   <div class="dropdown">
 
-    <img class="logoImg" src="images/logo.svg" alt="">
+    <img class="dropdown__logoImg" src="images/logo.svg" alt="">
     <input type="checkbox" id="checkbox_toggle">
     <label for="checkbox_toggle" class="toggle"><img id="img1" src="./images/icon-hamburger.svg" alt="burger"></label>
     <label for="checkbox_toggle" class="toggle2"><img id="img2" src="./images/icon-close.svg" alt="burger"></label>
+    <div class="dropdown__bg"></div>
     <ul class="back">
-        <li><a href="#">Product</a></li>
-        <li><a href="#">Features</a></li>
-        <li><a href="#">Pricing</a></li>
-        <li class="line"><div></div></li>
-        <li><a href="#" class="login">Login</a></li>
+      <li><a href="#">Product</a></li>
+      <li><a href="#">Features</a></li>
+      <li><a href="#">Pricing</a></li>
+      <li class="line"><span>
+          <hr> </span> </li>
+      <li><a href="#" class="login">Login</a></li>
     </ul>
-</div>
-<section class="container">
-    <div class="container-part2">
-        <img alt="img" src="images/illustration-devices.svg" class="image">
+  </div>
+  <section class="container">
+    <div class="container__part2">
+      <div class="container__part2__image">
+        <img alt="img" src="images/illustration-devices.svg">
+      </div>
     </div>
-    <div class="container-part1">
-        <p class="para1">
-            <span class="btnnew">New</span> <span class="title-grey">MONOGRAPH DASHBOARD</span>
-        </p> 
-        <h1>POWERFUL INSIGHTS <br> INTO YOUR TEAM</h1>
+    <div class="container__part1">
+      <p class="container__part1__para1">
+        <span class=" container__part1__para1--btnnew">NEW</span>
+        <span class=" container__part1__para1--title-grey">MONOGRAPH DASHBOARD</span>
+      </p>
+      <h1>POWERFUL INSIGHTS <br> INTO YOUR TEAM</h1>
 
-        <p class="para2">Project planning and time tracking <br> for agile teams</p>
-        <div class="bottom">
-            <button class="btnschedule ">SCHEDULTE A DEMO</button>
-            <p class="title-grey2">TO SEE A PREVIEW </p>
-        </div>
+      <p class="container__part1__para2">Project planning and time tracking <br> for agile teams</p>
+      <div class="container__part1__bottom">
+        <button class="container__part1__bottom--btnschedule ">SCHEDULTE A DEMO</button>
+        <p class="container__part1__bottom--title-grey2">TO SEE A PREVIEW </p>
+      </div>
     </div>
 
-</section>
+  </section>
 
 
 
